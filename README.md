@@ -17,6 +17,7 @@ Features:
 Statistical test to compare win rates between playing as White and Black
 
 Technologies Used:
+
 -Library	Purpose
 -berserk	Connects to the Lichess API
 -dotenv	Manages API token securely
@@ -25,5 +26,6 @@ Technologies Used:
 -scipy.stats	Statistical testing (e.g., z-test)
 
 Future Goals:
+
 -Estimate the average number of blunders per game
 -Visualize Glicko-2 rating progression
