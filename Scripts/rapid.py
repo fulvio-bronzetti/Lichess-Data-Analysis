@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from statsmodels.stats.proportion import proportions_ztest
+#this script analyzes the rapid games saved in rapid_games.csv and calculates statistics such as win rate, win rate by ECO and win rate by color
+#it then tests if the difference in win rate between white and black is statistically significant using a z-test for two proportions
 def main():
     # Load the CSV file into a DataFrame
     df = pd.read_csv("rapid_games.csv")
