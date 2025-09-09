@@ -1,26 +1,28 @@
 A Python project to analyze my chess performance on Lichess.org using the official API. It extracts user statistics, visualizes preferred game modes, and downloads the last 300 rapid games in PGN format for further analysis.
 
- Features
- Secure connection to the Lichess API via personal token
+The datasets used for this analysis is available in the Datasets folder. It contains metadata for my last 300 rapid games, including result, color played, opening name, and opponent rating.
 
-📊 Extraction of performance metrics by game mode (bullet, blitz, rapid, etc.)
+ Features:
+ -Secure connection to the Lichess API via personal token
 
-📈 Data visualization using bar plots
+-Extraction of performance metrics by game mode (bullet, blitz, rapid, etc.)
 
-📥 Download of the last 300 rapid games in PGN format
+-Data visualization using bar plots
 
-♜ Estimation of win rates by opening and by color
+-Download of the last 300 rapid games in PGN format
 
-📐 Statistical test to compare win rates between playing as White and Black
+-Estimation of win rates by opening and by color
 
-🛠️ Technologies Used
-Library	Purpose
-berserk	Connects to the Lichess API
-dotenv	Manages API token securely
-pandas	Data manipulation and analysis
-matplotlib	Data visualization
-scipy.stats	Statistical testing (e.g., z-test)
+Statistical test to compare win rates between playing as White and Black
 
-🔮 Future Goals
-Estimate the average number of blunders per game
-Visualize Glicko-2 rating progression
+Technologies Used:
+-Library	Purpose
+-berserk	Connects to the Lichess API
+-dotenv	Manages API token securely
+-pandas	Data manipulation and analysis
+-matplotlib	Data visualization
+-scipy.stats	Statistical testing (e.g., z-test)
+
+Future Goals:
+-Estimate the average number of blunders per game
+-Visualize Glicko-2 rating progression
