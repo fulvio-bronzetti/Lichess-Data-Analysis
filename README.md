@@ -1,5 +1,5 @@
 A Python project to analyze my chess performance on Lichess.org via API.
-It extracts user statistics, visualizes preferred game modes, and downloads the last 500 rapid games in PGN format.
+It extracts user statistics, visualizes preferred game modes, and downloads the last 300 rapid games in PGN format.
 
 🚀 Features
 Secure connection to the Lichess API using a personal token.
@@ -8,7 +8,11 @@ Extraction of performance metrics by game mode (bullet, blitz, rapid, etc.).
 
 Data visualization with bar plots.
 
-Download of the last 500 rapid games in PGN format.
+Download of the last 300 rapid games in PGN format.
+
+Estimation of Winning rates by opening and by color.
+
+Statistical test to compare win rates of black and white.
 
 🛠️ Technologies Used
 Python
@@ -21,12 +25,7 @@ pandas – for data manipulation.
 
 matplotlib – for data visualization.
 
+scipy.stats - for statistical tests
+
 🔮 Future Goals
-Estimate winning rates by opening.
-Analysis of games to identify the most effective openings in terms of results.
-
-Calculate the average number of blunders per game.
-Assessment of game quality by extracting and classifying blunders.
-
-Build a multinomial logistic model.
-Prediction of game outcomes (win, loss, draw) based on key strategic variables such as opening, rating, number of moves, and more.
+Estimate the average amount of blunders by game
