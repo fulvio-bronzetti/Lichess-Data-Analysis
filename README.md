@@ -2,8 +2,9 @@ A Python project to analyze my chess performance on Lichess.org using the offici
 
 The datasets used for this analysis is available in the Datasets folder. It contains metadata for my last 300 rapid games, including result, color played, opening name, and opponent rating.
 
- Features:
- -Secure connection to the Lichess API via personal token
+Features:
+ 
+-Secure connection to the Lichess API via personal token
 
 -Extraction of performance metrics by game mode (bullet, blitz, rapid, etc.)
 
